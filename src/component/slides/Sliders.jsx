@@ -16,7 +16,7 @@ function Sliders(){
     return(
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
-                <Slide active="active" imagesource="https://pixabay.com/get/g78983a887b8ba5ef90476bea0e89a48a974a21102c6748374af9e311fc6bc103d0306f2e0f65ab3685e30996397db78364c42312995f1188c23b68ee392afbc2_1280.jpg" />
+                <Slide active="active" imagesource="https://pixabay.com/get/gccb882a97c47b185355c82743c77b1e16723adc6e4c4ccacaea3218f5fab3b011a15645ac421ce7c930e58658a46835566ab7201b34e993b8af003bdf6d8fd2a_1280.jpg" />
                 {data.hits.map(item => (
                 <Slide imagesource={item.largeImageURL} />
                 ))}

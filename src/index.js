@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import 'bootstrap-select/dist/js/bootstrap-select.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/css/style.css';
+import 'bootstrap-select/dist/css/bootstrap-select.min.css';
+import './assets/fonts/font-awesome/font-awesome.css';
+import './assets/slick.slider/slick-theme.css';
+import './assets/slick.slider/slick.css';
+import './assets/fonts/custom-fonts.css';
+import './assets/css/main.css';
+import './assets/css/responsive.css';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,380 @@
+/*
+--------------------
+register-form-sec-wrp
+--------------------
+*/
+.register-form-sec-wrp{
+	padding-bottom: 50px;
+}
+.register-form-block{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ced4da;
+}
+.register-msg{
+	background:#623f57;
+	padding: 15px 15px;
+	text-align: center;
+}
+.register-msg-title{
+	font-size: 16px;
+	line-height: 1;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.register-msg-title:last-child{
+	margin-bottom: 0;
+}
+.register-form-cntlr{
+	padding: 35px 25px; 
+}
+
+/*
+---------------------------
+ Contact Form Css
+---------------------------
+*/
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container:after,
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container:before{
+	content: "";
+	clear: both;
+	display: table;
+}
+.register-form-wrp  div.wpforms-container-full .wpforms-form .wpforms-field{
+	clear: initial;
+}
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
+	width: 50%;
+	float: left;
+	padding: 0 12px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.login-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
+	width: 100%;
+} 
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field label {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 500;
+	text-transform: capitalize;
+	color: #55595C;
+    margin-bottom: 10px;
+}
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field label span{
+	color: #FF0000;
+}
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .MinTimeField{
+	width: 33.3333%;
+}
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .subjectField{
+	width: 100%;
+}
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container{
+	margin: 0 -12px;
+}
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input{
+	width: 100%;
+	max-width: 100%;
+	height: 50px;
+	background: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	box-sizing: border-box;
+	padding: 19px 20px 18px;
+	color: #555;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1;
+	border-radius: 5px;
+}
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:focus{
+	border-color: #c0bebe;
+	outline: none;
+	box-shadow: none;
+}
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button{
+	max-width: 220px;
+	width: 100%;
+	height: 40px;
+	border: 2px solid #624058!important;
+	background: #624058;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: table;
+	margin: 0 auto;
+	padding: 11px 0 12px;
+	position: relative;
+	border-radius: 20px;
+}
+.register-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover{
+	background: transparent;
+	color: #624058;
+	border-color: #624058 !important;
+}
+.register-form-wrp .wpforms-field-container .wpforms-field-select.SelectDateField .SelectFieldCntlr{
+	margin: 0 -10px;
+}
+.register-form-wrp .wpforms-field-container .wpforms-field-select.SelectDateField .SelectField{
+    width: 33.3333% !important;
+    float: left;
+    padding: 0 10px;
+}
+.register-form-wrp .wpforms-field-container .wpforms-field select,
+.register-form-wrp .wpforms-field-select select{
+    outline: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    padding-right: 40px;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 50px !important;
+    background: #fff !important;
+    border: 1px solid #E5E5E5;
+    padding: 16px 20px 17px;
+    font-size: 12px !important;
+    line-height: 1;
+	color: #555;
+    font-weight: 400 !important;
+    border-radius: 0;
+    position: relative;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    border-radius: 5px;
+    background-image: url(../images/angle-icon.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 14px 8px !important;
+    background-position: 98% center !important;
+}
+.register-form-wrp .wpforms-field-container .wpforms-field select::-ms-expand {
+  display: none;
+}
+.register-form-wrp .wpforms-field-container .wpforms-field-select.SelectDateField .SelectField select{
+	background-position: 95% center !important;
+}
+.already-account{
+	text-align: center;
+	padding-top: 40px;
+}
+.already-account p{
+	font-size: 11px;
+	line-height: 1;
+	color: #55595C;
+	margin-bottom: 10px;
+}
+.already-account p:last-child{
+	margin-bottom: 0;
+}
+.already-account p a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: #623f57;
+}
+.already-account p a:hover{
+	text-decoration: underline;
+	color: #53293e;
+}
+.recover-password{
+	text-align: center;
+	padding-top: 30px;
+}
+.recover-password a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: #623f57;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 600;
+}
+.recover-password span{
+	display: block;
+	font-weight: 600;
+	color: #555;
+}
+.recover-password a:hover{
+	color: #f61337;
+	text-decoration: underline;
+}
+
+.login-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-checkbox {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 12px;
+}
+.login-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-checkbox ul li {
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+}
+.login-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-checkbox ul li label {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    color: #55595C;
+    margin: 0;
+    padding-left: 50px;
+    text-transform: inherit;
+    padding-right: 0;
+    cursor: pointer;
+    padding: 8px 0 8px 45px;
+}
+/* Hide the browser's default checkbox */
+.login-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-checkbox ul li label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.login-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-checkbox ul li label input:checked ~ .checkmark:after {
+  display: block;
+  border-color: #624058;
+}
+.login-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-checkbox ul li label input:checked ~ .checkmark{
+	border-color: #624058;
+}
+
+/* Style the checkmark/indicator */
+.login-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-checkbox ul li label .checkmark:after {
+    left: 10px;
+    top: 3px;
+    width: 9px;
+    height: 16px;
+    border: solid #E5E5E5;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    content: "";
+}
+
+
+/*
+--------------------
+ Responsive Css
+--------------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	
+
+}
+
+@media(max-width: 991px){
+	.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input{
+		padding: 19px 15px 15px; 
+	}
+	.register-form-wrp .wpforms-field-container .wpforms-field select,
+	.register-form-wrp .wpforms-field-select select{
+		padding: 16px 15px 17px;
+	}
+}
+
+@media(max-width: 767px){
+	.register-form-wrp .wpforms-field-container .wpforms-field-select.SelectDateField .SelectField {
+	    padding: 0 5px;
+	}
+	.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input {
+	    padding: 19px 10px 15px;
+	}
+	.register-form-wrp .wpforms-field-container .wpforms-field select,
+	.register-form-wrp .wpforms-field-select select {
+	    padding: 16px 10px 17px;
+	}
+	.register-form-wrp .wpforms-field-container .wpforms-field-select.SelectDateField .SelectFieldCntlr {
+	    margin: 0 -5px;
+	}
+}
+@media(max-width: 639px){
+	.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field {
+	    width: 100%;
+	    margin-bottom: 15px;
+	}
+	.register-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input {
+	    padding: 12px 10px 12px;
+	    height: 40px;
+	}
+	.register-form-wrp .wpforms-field-container .wpforms-field select, .register-form-wrp .wpforms-field-select select {
+	    padding: 12px 10px 13px;
+	    height: 40px !important;
+	}
+}
+@media(max-width: 575px){
+	.register-msg-title{
+		font-size: 15px;
+	}
+	.recover-password,
+	.already-account {
+	    padding-top: 25px;
+	}
+
+}
+
+@media(max-width: 479px){
+	.register-form-wrp .wpforms-field-container .wpforms-field select,
+	.register-form-wrp .wpforms-field-select select {
+	    background-size: 12px 6px !important;
+	    background-position: 98% center !important;
+	}
+	.register-form-cntlr {
+	    padding: 35px 15px;
+	}
+	.register-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button{
+		max-width: 180px;
+		width: 100%;
+	}
+
+}
+
+@media(max-width: 359px){
+
+}

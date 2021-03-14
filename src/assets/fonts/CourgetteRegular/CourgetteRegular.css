@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CourgetteRegular';
+    src: url('fonts/CourgetteRegular.eot');
+    src: url('fonts/CourgetteRegular.eot') format('embedded-opentype'),
+         url('fonts/CourgetteRegular.woff2') format('woff2'),
+         url('fonts/CourgetteRegular.woff') format('woff'),
+         url('fonts/CourgetteRegular.ttf') format('truetype'),
+         url('fonts/CourgetteRegular.svg#CourgetteRegular') format('svg');
+}
